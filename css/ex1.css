@@ -34,11 +34,11 @@ nav {
     font-size: 19.2px;
 }
 
-nav ul {
+nav > ul {
     display: none;
 }
 
-nav ul li {
+nav > ul > li {
     text-align: center;
     border-bottom: 1px solid #576979;
     padding: 12px 0;
@@ -60,4 +60,25 @@ a:link, a:hover, a:visited {
 #mobile_btn img {
     width: 30px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 721px) {
+    nav > ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav > ul > li {
+        flex: 0 0 120px;
+        border-bottom: none;
+        border-right: 1px solid #576979;
+    }
+
+    nav > ul > li:last-child {
+        border-right: none;
+    }
+
+    #mobile_btn {
+        display: none;
+    }
 }

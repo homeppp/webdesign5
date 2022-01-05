@@ -25,5 +25,25 @@
             <img src="images/nav.png">
         </div>
     </header>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $("#mobile_btn").on("click", function() {
+            $("header > nav > ul").slideToggle();
+        });
+
+        // 화면의 사이즈가 바뀌었을 때
+        $(window).resize(function() {
+            let width = $(window).width();
+
+            // 브라우저가 PC 사이즈만큼 넓어졌다면 
+            if(width >= 721) {
+                // 글로벌 내비게이션 메뉴에 인라인 스타일 시트를 제거해라
+                $("nav > ul").removeAttr("style");
+            }
+            
+        });
+        
+    </script>
 </body>
 </html>
