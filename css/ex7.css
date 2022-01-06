@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header > h1 {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 70px;
+}
+
+nav {
+    background: #ff9100;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1 0 25%;
+    line-height: 50px;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+section {
+    height: 800px;
+    border: 1px solid white;
+}
+
+section h2 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 1px black;
+    margin-top: 150px;
+}
+
+section.page1 {
+    background: url("../images/eu.jpg") no-repeat center;
+    background-size: cover;
+}
+
+section.page2 {
+    background: url("../images/us.jpg") no-repeat center;
+    background-size: cover;
+}
+
+section.page3 {
+    background: url("../images/ch.jpg") no-repeat center;
+    background-size: cover;
+}
+
+section.page4 {
+    background: url("../images/jp.jpg") no-repeat center;
+    background-size: cover;
+}
