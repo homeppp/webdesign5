@@ -1,0 +1,7 @@
+customer -> css 적용안됨 / master 브랜치로 병합x
+job-detail -> / 커밋이 없음 / 빠짐
+question -> master 브랜치로 병합x
+career-job -> master 브랜치로 병합x
+career -> 재커밋 완료
+main -> 
+master에서 customer 병합
