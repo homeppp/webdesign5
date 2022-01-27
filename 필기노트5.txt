@@ -109,4 +109,22 @@ Open Link -> 상황에 따라서는 링크가 바로 안 보이고 어떤 안내
                        안내 문구가 보이면 그 문구 안에  [링크를 열어라] 이런 a 태그가 보일 것 
                        그 a 태그를 누르면 됨
 
+On Tap -> 클릭했을 때
+On Drag -> 드래그했을 때
+While Hovering -> 마우스를 올렸을 때
+While Pressing -> 누르고 있는 동안에
+Key/Gamepad  -> 키보드의 특정 키를 눌렀을 때
+
+MouseEnter -> 마우스가 들어왔을 때
+MouseLeave -> 마우스가 나갈 때
+
+TouchDown -> 마우스를 클릭하고 있는 상태
+TouchUp -> 클릭 후 손을 뗐을 때
+
 오브젝트 고정시 밑에 있는건 제약조건 bottom으로 하고 고정해야함
+
+일러스트로 만든 것들 svg 코드 복붙 가능
+
+https://ui-kit.co/
+다운로드 후 import
+ctrl+c, v 하면 쓸 수 있음
